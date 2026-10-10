@@ -24,6 +24,9 @@ Tested against the VCL in Varnish Cache's own test suite (~780 files) and the Fa
 
 ![Completion of writable variables](docs/02-completion.png)
 
+## Source code
+The plugin is closed source (free to use under the EULA); this repository hosts its documentation, license and issue tracker. The source code is not public.
+
 ## Support
 Please open an [issue](../../issues) for bugs and feature requests. Include your IDE version and a minimal VCL
 snippet (remove secrets and internal host names first).
