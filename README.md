@@ -18,6 +18,7 @@ Install: *Settings → Plugins → Marketplace → search "VCL Language Tools"*.
 - Inspections: variables read/written/unset where Varnish does not allow it, invalid `return(...)` actions, undefined
   subroutines and symbols, missing `import` (quick fix), unknown variables, duplicate and unused declarations
 - Quick documentation (Ctrl+Q / F1) for variables, functions and built-in subroutines
+- Reformat Code: indentation by block depth, hand-aligned continuation lines kept, long strings and inline C untouched
 - Structure view, folding, brace matching, commenting
 
 Tested against the VCL in Varnish Cache's own test suite (~780 files) and the Fastly examples of the falco project.
